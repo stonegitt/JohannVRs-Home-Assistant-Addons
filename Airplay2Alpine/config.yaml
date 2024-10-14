@@ -1,6 +1,6 @@
 name: "Airplay 2 for Home Assistant (Alpine)"
 description: "Adds Airplay 2 capabilities to Home Assistant"
-url: https://github.com/JohannVR/JohannVRs-Home-Assistant-Addons/tree/main/Airplay2Alpine
+url: https://github.com/stonegitt/Stone-Home-Assistant-Addons/tree/main/Airplay2Alpine
 version: "0.1.0"
 slug: "airplay2alpine"
 init: false
@@ -12,13 +12,13 @@ boot: "auto"
 host_network: true
 audio: true
 options:
-  airplay_name: "Hass.io"
-  offset: "0.0"
-  enabled: "no"
+  airplay_name: "Airplay"
+  offset: "-1"
+  enabled: "yes"
   mqtt_host: "core-mosquitto"
-  mqtt_username: "user"
-  mqtt_password: "password"
-  mqtt_publish_cover: "no"
+  mqtt_username: "home"
+  mqtt_password: "home"
+  mqtt_publish_cover: "yes"
 schema:
   airplay_name: str
   offset: str
