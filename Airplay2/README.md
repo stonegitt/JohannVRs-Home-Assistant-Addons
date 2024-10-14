@@ -20,5 +20,5 @@ Stream audio directly from your iPhone, iPad, or Mac to speakers connected to yo
 To install this addon, you must first add its repository URL to your Home Assistant instance.
 To do so, add the repository URL below to the Home Assistant add-on store:
 
-`https://github.com/JohannVR/JohannVRs-Home-Assistant-Addons`
+`https://github.com/stonegitt/Stone-Home-Assistant-Addons`
 
